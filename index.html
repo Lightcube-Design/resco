@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RESCO — Renewable Energy System Co. LLC. Maintenance, trading, and turnkey energy solutions in Kenya, Oman & India." />
+  <title>RESCO | Fit For Purpose Energy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/resco-logo.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main">
+      <a href="#home" class="logo" aria-label="RESCO Home">
+        <img src="assets/resco-logo.png" alt="Renewable Energy System Co. LLC" class="logo-img" width="200" height="46" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Our Work</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-mobile-cta"><a href="#contact" class="btn btn-primary btn-full">Get a Quote</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-btn">Get a Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-slider" id="heroSlider" aria-hidden="true">
+        <div class="hero-slide active"><img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1920&q=80" alt="" /></div>
+        <div class="hero-slide"><img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1920&q=80" alt="" /></div>
+        <div class="hero-slide"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1920&q=80" alt="" /></div>
+        <div class="hero-slide"><img src="https://images.unsplash.com/photo-1592659762303-90081d34b277?auto=format&fit=crop&w=1920&q=80" alt="" /></div>
+        <div class="hero-slide"><img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1920&q=80" alt="" /></div>
+        <div class="hero-slide"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1920&q=80" alt="" /></div>
+      </div>
+      <div class="hero-shade"></div>
+
+      <div class="container hero-inner">
+        <p class="hero-eyebrow reveal">Renewable Energy System Co. LLC</p>
+        <h1 class="hero-heading reveal">
+          <span class="hero-heading-line">Fit for Purpose</span>
+          <span class="hero-heading-line hero-rotate-wrap">
+            <span class="hero-rotate" id="heroRotate">Solar</span>
+          </span>
+          <span class="hero-heading-line">Energy</span>
+        </h1>
+        <p class="hero-lead reveal">
+          Our goal is to build robust, indelible relationships with our clients across Kenya, Oman, and India.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#contact" class="btn btn-primary btn-lg">Get a Quote</a>
+          <a href="#projects" class="btn btn-secondary btn-lg">Discover Our Work</a>
+        </div>
+      </div>
+
+      <div class="hero-progress container" aria-hidden="true">
+        <div class="hero-progress-bar" id="heroProgress"></div>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="intro section">
+      <div class="container intro-grid reveal">
+        <h2 class="intro-title">We develop sustainable<br>energy solutions</h2>
+        <div class="intro-text">
+          <p>RESCO develops, supplies, and maintains energy and industrial systems that match each client's specific needs, scale, and operational rhythms. We deliver fit-for-purpose solutions — renewable energy and industrial equipment in the right form, exactly when needed.</p>
+          <p>From boilers and water treatment to solar and turnkey projects, we strengthen sustainable value for stakeholders across industrial, hospitality, automotive, and project sectors.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sliding gallery -->
+    <section class="gallery-strip" aria-label="Renewable energy gallery">
+      <div class="gallery-track">
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80" alt="Solar panels" /><span>Solar</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=600&q=80" alt="Wind turbines" /><span>Wind</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=600&q=80" alt="Solar farm" /><span>Solar Farm</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1592659762303-90081d34b277?auto=format&fit=crop&w=600&q=80" alt="Rooftop solar" /><span>Rooftop PV</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=600&q=80" alt="Water treatment" /><span>Water</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=600&q=80" alt="Industrial" /><span>Industrial</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80" alt="" /><span>Solar</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=600&q=80" alt="" /><span>Wind</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=600&q=80" alt="" /><span>Solar Farm</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1592659762303-90081d34b277?auto=format&fit=crop&w=600&q=80" alt="" /><span>Rooftop PV</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=600&q=80" alt="" /><span>Water</span></div>
+        <div class="gallery-slide"><img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=600&q=80" alt="" /><span>Industrial</span></div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Our Expertise</p>
+          <h2 class="section-title">Services &amp; Products</h2>
+        </header>
+        <div class="expertise-grid">
+          <article class="expertise-card reveal">
+            <div class="expertise-img"><img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=700&q=80" alt="Boilers" loading="lazy" /></div>
+            <div class="expertise-body">
+              <h3>Boilers</h3>
+              <p>High-efficiency boiler systems, installation, and maintenance for industrial and commercial applications.</p>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img"><img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=700&q=80" alt="Burners" loading="lazy" /></div>
+            <div class="expertise-body">
+              <h3>Burners</h3>
+              <p>Precision burner technology for optimal fuel efficiency and reduced emissions.</p>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img"><img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=700&q=80" alt="Pumps" loading="lazy" /></div>
+            <div class="expertise-body">
+              <h3>Pumps</h3>
+              <p>Industrial pumping solutions for water, chemicals, and process fluids.</p>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img"><img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=700&q=80" alt="Laundry and Kitchen" loading="lazy" /></div>
+            <div class="expertise-body">
+              <h3>Laundry &amp; Kitchen Equipments</h3>
+              <p>Commercial laundry and kitchen equipment for hotels and hospitality.</p>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img"><img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=700&q=80" alt="Water Treatment" loading="lazy" /></div>
+            <div class="expertise-body">
+              <h3>Water Treatment Solutions</h3>
+              <p>Complete water treatment systems for quality, compliance, and efficiency.</p>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img"><img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=700&q=80" alt="Ethix Water Conditioner" loading="lazy" /></div>
+            <div class="expertise-body">
+              <h3>Ethix Water Conditioner</h3>
+              <p>Eco-friendly water conditioning without chemicals.</p>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img"><img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=700&q=80" alt="Ventilation" loading="lazy" /></div>
+            <div class="expertise-body">
+              <h3>Ventilation Equipments</h3>
+              <p>HVAC and ventilation for comfort, safety, and energy performance.</p>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img"><img src="https://images.unsplash.com/photo-1592659762303-90081d34b277?auto=format&fit=crop&w=700&q=80" alt="Solar" loading="lazy" /></div>
+            <div class="expertise-body">
+              <h3>Solar</h3>
+              <p>Solar energy systems and battery solutions for sustainable power.</p>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=700&q=80" alt="Valves" loading="lazy" /></div>
+            <div class="expertise-body">
+              <h3>Valves</h3>
+              <p>Industrial valves and flow control for critical applications.</p>
+            </div>
+          </article>
+          <article class="expertise-card reveal">
+            <div class="expertise-img"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=700&q=80" alt="Spareparts" loading="lazy" /></div>
+            <div class="expertise-body">
+              <h3>Spareparts</h3>
+              <p>Genuine spare parts with fast delivery to minimize downtime.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats section" id="stats">
+      <div class="container">
+        <header class="stats-head reveal">
+          <p class="eyebrow eyebrow-light">RESCO in a few numbers</p>
+          <h2 class="stats-title">Trusted across three continents</h2>
+        </header>
+        <div class="stats-grid reveal">
+          <div class="stat-block">
+            <span class="stat-value" data-target="2010">0</span>
+            <span class="stat-name">Year Established</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value" data-target="206">0</span>
+            <span class="stat-name">Projects Completed</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value" data-target="870">0</span>
+            <span class="stat-name">Contractors Appointed</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value" data-target="26">0</span>
+            <span class="stat-name">Awards Won</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-layout reveal">
+          <div class="about-visual">
+            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=900&q=80" alt="RESCO engineering and industrial solutions" loading="lazy" />
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow">About RESCO Organization</p>
+            <h2 class="section-title">Renewable Energy System Co. LLC</h2>
+            <p class="lead">Renewable Energy System Co. LLC (RESCO), legally registered in Oman, and Resco Technical &amp; Trading Co. Ltd. in Kenya, provide products and services of the highest standards across industrial, hospitality, automotive, and project sectors.</p>
+            <p>The company holds an excellent reputation in Kenya and Oman for outstanding performance and a highly qualified technical team. RESCO combines the latest technology with professional engineers to deliver innovative solutions in boilers, water treatment, instrumentation, mechanical, and electrical supply and services.</p>
+            <p>Based on market requirements, we constantly expand our product range. RESCO is committed to incorporating the latest technological developments to provide effective, efficient solutions that generate real cost benefits.</p>
+            <ul class="sector-list">
+              <li>Industrial Sectors</li>
+              <li>Hotel Industry</li>
+              <li>Automotive and Solar Batteries</li>
+              <li>Interior Designing and Projects</li>
+            </ul>
+          </div>
+        </div>
+        <div class="vision-mission reveal">
+          <article class="vm-card">
+            <h3>Vision</h3>
+            <p>To establish RESCO as the leading local maintenance, trading, and turnkey service provider in Kenya &amp; Oman by delivering high-quality services and products with customer satisfaction being the main aim.</p>
+          </article>
+          <article class="vm-card">
+            <h3>Mission</h3>
+            <p>RESCO aims to provide a one stop solution to strengthen sustainable value for all stakeholders through enhancing the effectiveness and efficiency of staff and operations to achieve customer satisfaction as well as public recognition.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promise -->
+    <section class="promise section">
+      <div class="container promise-box reveal">
+        <h2>Our Fit For Purpose Brand Promise</h2>
+        <p>For RESCO, every energy transition must be adapted to each reality. Our fit for purpose approach reflects our commitment to developing customized solutions that exactly meet everyone's needs. By simplifying access to renewable energy and industrial systems, we are building a path towards a sustainable future.</p>
+        <a href="#contact" class="btn btn-primary">Start Your Energy Transition</a>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <header class="section-head row-head reveal">
+          <div>
+            <p class="eyebrow">Our Work</p>
+            <h2 class="section-title">Projects</h2>
+          </div>
+          <div class="carousel-btns">
+            <button class="icon-btn" id="projPrev" aria-label="Previous"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <button class="icon-btn" id="projNext" aria-label="Next"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg></button>
+          </div>
+        </header>
+        <div class="projects-track" id="projectsTrack">
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=800&q=80" alt="Industrial boiler systems" loading="lazy" />
+            <div class="project-meta"><span class="tag">Industrial</span><h3>Industrial Boiler Systems</h3></div>
+          </article>
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80" alt="Hotel laundry" loading="lazy" />
+            <div class="project-meta"><span class="tag">Hospitality</span><h3>Hotel Laundry Solutions</h3></div>
+          </article>
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=800&q=80" alt="Solar installation" loading="lazy" />
+            <div class="project-meta"><span class="tag">Solar</span><h3>Solar Energy Installations</h3></div>
+          </article>
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=800&q=80" alt="Water treatment" loading="lazy" />
+            <div class="project-meta"><span class="tag">Water</span><h3>Water Treatment Plants</h3></div>
+          </article>
+          <article class="project-card">
+            <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80" alt="Solar farm" loading="lazy" />
+            <div class="project-meta"><span class="tag">Renewable</span><h3>Solar Farm Deployment</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <section class="section" id="clients">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Clients</p>
+          <h2 class="section-title">Trusted by leading industries</h2>
+        </header>
+      </div>
+      <div class="clients-strip">
+        <div class="clients-track">
+          <div class="client-item"><img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=300&q=80" alt="Industrial" /><span>Industrial</span></div>
+          <div class="client-item"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=300&q=80" alt="Hospitality" /><span>Hospitality</span></div>
+          <div class="client-item"><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=300&q=80" alt="Automotive" /><span>Automotive</span></div>
+          <div class="client-item"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=300&q=80" alt="Energy" /><span>Energy</span></div>
+          <div class="client-item"><img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=300&q=80" alt="Manufacturing" /><span>Manufacturing</span></div>
+          <div class="client-item"><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=300&q=80" alt="Projects" /><span>Projects</span></div>
+          <div class="client-item"><img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=300&q=80" alt="" /><span>Industrial</span></div>
+          <div class="client-item"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=300&q=80" alt="" /><span>Hospitality</span></div>
+          <div class="client-item"><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=300&q=80" alt="" /><span>Automotive</span></div>
+          <div class="client-item"><img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=300&q=80" alt="" /><span>Energy</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 class="section-title">Get in touch</h2>
+          <p class="section-sub">For inquiries, questions or commendations, call <a href="tel:+96893912850">+968 9391 2850</a> or fill out the form below.</p>
+        </header>
+        <div class="contact-layout reveal">
+          <div class="offices">
+            <article class="office">
+              <h3>Nairobi — Kenya</h3>
+              <p class="office-co">Resco Technical &amp; Trading Co. Ltd.</p>
+              <p>PO Box 64933-00620, Enterprise Road,<br>Republic of Kenya</p>
+              <p>T: (+254) 786 199 401, (+254) 748 803 231</p>
+              <p>E: <a href="mailto:Info@resemct.com">Info@resemct.com</a></p>
+            </article>
+            <article class="office">
+              <h3>Muscat — Oman</h3>
+              <p class="office-co">Renewable Energy System Co. LLC</p>
+              <p>PO Box 1265, P Code 114, Muttrah – Muscat,<br>Region Code: 001, Sultanate Of Oman</p>
+              <p>T: (+968) 24819293, F: (+968) 24702128</p>
+              <p>E: <a href="mailto:Info@resemct.com">Info@resemct.com</a></p>
+            </article>
+            <article class="office">
+              <h3>Goa — India</h3>
+              <p class="office-co">Renewable Services &amp; Hospitalities Pvt. Ltd.</p>
+              <p>134/A, Nagwado, Betalbatim,<br>South Goa 403713</p>
+              <p>T: +91 98236 42500, +91 99231 26709</p>
+              <p>E: <a href="mailto:Info@resemct.com">Info@resemct.com</a></p>
+            </article>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="field"><label for="firstName">First Name</label><input type="text" id="firstName" required /></div>
+              <div class="field"><label for="lastName">Last Name</label><input type="text" id="lastName" required /></div>
+            </div>
+            <div class="field"><label for="email">Email</label><input type="email" id="email" required /></div>
+            <div class="field"><label for="subject">Subject</label><input type="text" id="subject" required /></div>
+            <div class="field"><label for="message">Message</label><textarea id="message" rows="5" required></textarea></div>
+            <button type="submit" class="btn btn-primary btn-full">Submit</button>
+            <p class="form-ok" id="formOk" hidden>Thanks for submitting!</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo logo-footer" aria-label="RESCO Home">
+          <img src="assets/resco-logo.png" alt="Renewable Energy System Co. LLC" class="logo-img" width="200" height="46" />
+        </a>
+        <p>Fit for purpose energy and industrial solutions across Kenya, Oman, and India.</p>
+        <a href="tel:+96893912850" class="footer-phone">Get a quote: +968 9391 2850</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#projects">Our Work</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Boilers &amp; Burners</a></li>
+          <li><a href="#services">Water Treatment</a></li>
+          <li><a href="#services">Solar Energy</a></li>
+          <li><a href="#services">Spareparts</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <div class="social">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.536v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bar">
+      <p>&copy; 2026 Renewable Energy System Co. LLC. Created by <a href="https://lightcubedesign.com" target="_blank" rel="noopener">lightcubedesign.com</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
