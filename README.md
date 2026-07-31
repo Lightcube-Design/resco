@@ -38,3 +38,4 @@ Then visit `http://localhost:8080`
 - Add real project photos to `.project-image` elements
 - Connect the contact form to your backend or email service (Formspree, etc.)
 # resco
+# resco
